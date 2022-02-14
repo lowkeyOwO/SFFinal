@@ -1,0 +1,29 @@
+body, .navbar{
+  background-color: #e5e5e5 !important;
+}
+h1{
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.p-title{
+  font-size: 1.7rem;
+  border-bottom: 4px solid #db545a;
+  display: inline;
+
+}
+.event{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-top:2rem;
+}
+.p-date{
+  font: 0.8rem;
+  font-weight: bolder;
+  margin: 2rem auto;
+}
+
+.poster{
+  width:400px;
+  height:600px;
+}
