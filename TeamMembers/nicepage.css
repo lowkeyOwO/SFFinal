@@ -36691,7 +36691,15 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
 
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #012D6C;
+}
 
 
  .u-footer {

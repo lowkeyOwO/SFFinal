@@ -1,14 +1,24 @@
 body, .navbar{
-  background-color: #e5e5e5 !important;
+  background-color: #f9f9f9 !important;
 }
 h1{
   text-align: center;
-  font-family: 'Abril Fatface', cursive;
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #339fcd;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
 
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #012D6C;
+}
 .p-title{
   font-size: 1.7rem;
-  border-bottom: 4px solid #db545a;
+  border-bottom: 4px solid #339fcd;
   display: inline;
 
 }
@@ -26,4 +36,43 @@ h1{
 .poster{
   width:400px;
   height:600px;
+}
+.carousel1
+{
+  width:50vw;
+  height:50vh;
+  margin: 0 auto;
+}
+
+.carousel-caption
+{
+  position: relative;
+  text-align: center;
+  color: #012d6c;
+  margin-top: 1rem;
+  font-weight: bold;
+  left:0;
+  right:0
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='cornflowerblue' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='cornflowerblue' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev
+{
+  left:-25%;
+  color: #012d6c;
+  font-weight: bold;
+}
+
+.carousel-control-next
+{
+  right:-25%;
+  color: #012d6c;
+  font-weight: bold;
 }

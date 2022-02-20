@@ -28,7 +28,7 @@ padding:0 3rem;
 .year-style-current{
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
-  border-bottom: 4px solid #db545a;
+  border-bottom: 4px solid #339fcd;
   display: inline;
 }
 
@@ -47,7 +47,7 @@ padding:0 3rem;
   text-align: justify;
   font-family: 'Poppins', sans-serif;
   font-size: 0.8rem;
-  border-left: 4px solid #db545a;
+  border-left: 4px solid #339fcd;
   color:grey;
 }
 
@@ -100,7 +100,7 @@ body {
     display: grid;
     place-items: center;
     overflow: hidden;
-    background-color:#db545a;
+    background-color:#339fcd;
 }
 
 .slide-track {
