@@ -385,16 +385,16 @@ section {
 }
 
 .home-slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
+    background-image: url(../images/slide1.jpeg);
     background-position: center;
 }
 
 .home-slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url(../images/2.png);
 }
 
 .home-slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
+    background-image: url(../images/4.png);
 }
 
 .feature-thumb {
